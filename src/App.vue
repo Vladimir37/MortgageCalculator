@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <CompareDuration/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import CompareDuration from './components/CompareDuration';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CompareDuration
   }
 }
 </script>
